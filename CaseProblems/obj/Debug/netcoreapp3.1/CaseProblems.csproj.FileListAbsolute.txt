@@ -1,0 +1,10 @@
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\obj\Debug\netcoreapp3.1\CaseProblems.AssemblyInfoInputs.cache
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\obj\Debug\netcoreapp3.1\CaseProblems.AssemblyInfo.cs
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.exe
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.deps.json
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.runtimeconfig.json
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.runtimeconfig.dev.json
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.dll
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\bin\Debug\netcoreapp3.1\CaseProblems.pdb
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\obj\Debug\netcoreapp3.1\CaseProblems.dll
+C:\Users\krfis\Documents\School\cis2620\cis2620-oop\chapter1\CaseStudy\obj\Debug\netcoreapp3.1\CaseProblems.pdb
