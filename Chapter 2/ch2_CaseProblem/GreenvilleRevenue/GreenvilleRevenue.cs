@@ -34,6 +34,9 @@ namespace CaseProblem1
             revenueThisYear = FEE * entrantsThisYear;
             revenueLastYear = FEE * entrantsLastYear;
 
+            WriteLine("This years revenue was {0}", revenueThisYear);
+            WriteLine("Last years revenue was {0}", revenueLastYear);
+
         }
     }
 }
