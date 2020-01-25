@@ -31,7 +31,8 @@ namespace CaseProblem1
             numContestants = Console.ReadLine();
             entrantsThisYear = Convert.ToInt32(numContestants);
 
-
+            revenueThisYear = FEE * entrantsThisYear;
+            revenueLastYear = FEE * entrantsLastYear;
 
         }
     }
