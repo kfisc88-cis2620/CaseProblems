@@ -15,8 +15,7 @@ namespace CaseProblem1
         static void Main(string[] args)
         {
             const double FEE = 25.00;
-            
-            Console.WriteLine("Hello World!");
+
             int entrantsThisYear, 
                 entrantsLastYear,
                 revenueLastYear,
