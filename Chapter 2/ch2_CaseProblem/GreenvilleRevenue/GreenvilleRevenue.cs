@@ -14,7 +14,23 @@ namespace CaseProblem1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int entrantsThisYear, 
+                entrantsLastYear,
+                revenueLastYear,
+                revenueThisYear;
+
+            string numContestants;
+
+            Console.WriteLine("Please enter the number of contestants from last year: ");
+            numContestants = Console.ReadLine();
+            entrantsLastYear = Convert.ToInt32(numContestants);
+            
+            Console.WriteLine("Please enter the number of contestants this year: ");
+            numContestants = Console.ReadLine();
+            entrantsThisYear = Convert.ToInt32(numContestants);
+
+
+
         }
     }
 }
