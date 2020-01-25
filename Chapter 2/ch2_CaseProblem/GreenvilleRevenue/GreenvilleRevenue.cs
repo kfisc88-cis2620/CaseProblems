@@ -1,4 +1,4 @@
-﻿// Filename: GreenvilleMotto2.cs
+﻿// Filename: GreenvilleRevenue.cs
 // Written by: Kelley Fischer & Ian Lundquist
 // Written on: 01/24/20
 // Description: 
