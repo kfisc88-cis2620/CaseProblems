@@ -17,8 +17,9 @@ namespace CaseProblem1
             const double FEE = 25.00;
 
             int entrantsThisYear, 
-                entrantsLastYear,
-                revenueLastYear,
+                entrantsLastYear;
+
+            double revenueLastYear,
                 revenueThisYear;
 
             string numContestants;
@@ -31,8 +32,12 @@ namespace CaseProblem1
             numContestants = Console.ReadLine();
             entrantsThisYear = Convert.ToInt32(numContestants);
 
+            revenueThisYear = FEE * entrantsThisYear;
+            revenueLastYear = FEE * entrantsLastYear;
 
-
+            Console.WriteLine("Last years revenue was {0}.", revenueLastYear);
+            Console.WriteLine("This years revenue was {0}.", revenueThisYear);
+            
         }
     }
 }
