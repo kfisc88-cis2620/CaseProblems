@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.txtLastYear = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.txtThisYear = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtLastYear
@@ -45,11 +46,19 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // txtThisYear
+            // 
+            this.txtThisYear.Location = new System.Drawing.Point(172, 138);
+            this.txtThisYear.Name = "txtThisYear";
+            this.txtThisYear.Size = new System.Drawing.Size(100, 20);
+            this.txtThisYear.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtThisYear);
             this.Controls.Add(this.txtLastYear);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -62,6 +71,7 @@
 
         private System.Windows.Forms.TextBox txtLastYear;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox txtThisYear;
     }
 }
 
