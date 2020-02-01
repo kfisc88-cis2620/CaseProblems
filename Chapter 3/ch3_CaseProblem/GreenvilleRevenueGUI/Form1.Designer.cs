@@ -115,7 +115,7 @@
             this.comparisonLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comparisonLabel.Location = new System.Drawing.Point(29, 329);
             this.comparisonLabel.Name = "comparisonLabel";
-            this.comparisonLabel.Size = new System.Drawing.Size(403, 16);
+            this.comparisonLabel.Size = new System.Drawing.Size(403, 53);
             this.comparisonLabel.TabIndex = 8;
             // 
             // label6
