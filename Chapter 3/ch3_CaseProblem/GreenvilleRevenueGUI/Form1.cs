@@ -24,9 +24,15 @@ namespace GreenvilleRevenueGUI
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            double lastYear = Convert.ToDouble(txtLastYear.Text);
-            double thisYear = Convert.ToDouble(txtThisYear.Text);
-            const double fee = 25;
+            const double FEE = 25;
+
+            double lastYear = Convert.ToDouble(txtLastYear.Text) * FEE;
+            double thisYear = Convert.ToDouble(txtThisYear.Text) * FEE;
+
+            double difference = thisYear - lastYear;
+            
+            previousRevenueLabel.Text = $"The previous year's revenue was {lastYear.ToString("C2")}";
+            currentRevenueLabel.Text = $"The current year's revenue is {thisYear.ToString("C2")}";
         }
     }
 }
