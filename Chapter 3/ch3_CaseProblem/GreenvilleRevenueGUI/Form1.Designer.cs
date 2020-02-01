@@ -97,7 +97,7 @@
             // previousRevenueLabel
             // 
             this.previousRevenueLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.previousRevenueLabel.Location = new System.Drawing.Point(40, 230);
+            this.previousRevenueLabel.Location = new System.Drawing.Point(29, 230);
             this.previousRevenueLabel.Name = "previousRevenueLabel";
             this.previousRevenueLabel.Size = new System.Drawing.Size(340, 16);
             this.previousRevenueLabel.TabIndex = 6;
@@ -105,7 +105,7 @@
             // currentRevenueLabel
             // 
             this.currentRevenueLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentRevenueLabel.Location = new System.Drawing.Point(40, 280);
+            this.currentRevenueLabel.Location = new System.Drawing.Point(29, 281);
             this.currentRevenueLabel.Name = "currentRevenueLabel";
             this.currentRevenueLabel.Size = new System.Drawing.Size(340, 16);
             this.currentRevenueLabel.TabIndex = 7;
@@ -113,9 +113,9 @@
             // comparisonLabel
             // 
             this.comparisonLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comparisonLabel.Location = new System.Drawing.Point(40, 330);
+            this.comparisonLabel.Location = new System.Drawing.Point(29, 329);
             this.comparisonLabel.Name = "comparisonLabel";
-            this.comparisonLabel.Size = new System.Drawing.Size(340, 16);
+            this.comparisonLabel.Size = new System.Drawing.Size(403, 16);
             this.comparisonLabel.TabIndex = 8;
             // 
             // label6

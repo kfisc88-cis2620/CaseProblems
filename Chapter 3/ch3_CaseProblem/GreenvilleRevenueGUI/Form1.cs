@@ -33,6 +33,8 @@ namespace GreenvilleRevenueGUI
             
             previousRevenueLabel.Text = $"The previous year's revenue was {lastYear.ToString("C2")}";
             currentRevenueLabel.Text = $"The current year's revenue is {thisYear.ToString("C2")}";
+
+            comparisonLabel.Text = $"The difference between this year and last year's revenue was {difference.ToString("C2")}";
         }
     }
 }
