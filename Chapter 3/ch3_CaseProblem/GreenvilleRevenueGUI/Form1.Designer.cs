@@ -92,6 +92,7 @@
             this.calculateButton.TabIndex = 5;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = false;
+            this.calculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // previousRevenueLabel
             // 

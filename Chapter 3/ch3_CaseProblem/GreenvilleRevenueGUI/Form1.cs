@@ -21,5 +21,12 @@ namespace GreenvilleRevenueGUI
         {
 
         }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            double lastYear = Convert.ToDouble(txtLastYear.Text);
+            double thisYear = Convert.ToDouble(txtThisYear.Text);
+            const double fee = 25;
+        }
     }
 }
