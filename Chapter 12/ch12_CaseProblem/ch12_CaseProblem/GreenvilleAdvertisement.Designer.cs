@@ -63,27 +63,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Green;
             this.label1.Location = new System.Drawing.Point(444, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(90, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "First Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Green;
             this.label2.Location = new System.Drawing.Point(447, 148);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.Size = new System.Drawing.Size(90, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Last Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Green;
             this.label3.Location = new System.Drawing.Point(447, 202);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(50, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "State";
             // 
@@ -104,9 +110,10 @@
             // genderRadioButton1
             // 
             this.genderRadioButton1.AutoSize = true;
+            this.genderRadioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.genderRadioButton1.Location = new System.Drawing.Point(447, 274);
             this.genderRadioButton1.Name = "genderRadioButton1";
-            this.genderRadioButton1.Size = new System.Drawing.Size(48, 17);
+            this.genderRadioButton1.Size = new System.Drawing.Size(56, 20);
             this.genderRadioButton1.TabIndex = 7;
             this.genderRadioButton1.TabStop = true;
             this.genderRadioButton1.Text = "Male";
@@ -115,9 +122,10 @@
             // genderRadioButton2
             // 
             this.genderRadioButton2.AutoSize = true;
+            this.genderRadioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.genderRadioButton2.Location = new System.Drawing.Point(564, 274);
             this.genderRadioButton2.Name = "genderRadioButton2";
-            this.genderRadioButton2.Size = new System.Drawing.Size(59, 17);
+            this.genderRadioButton2.Size = new System.Drawing.Size(72, 20);
             this.genderRadioButton2.TabIndex = 8;
             this.genderRadioButton2.TabStop = true;
             this.genderRadioButton2.Text = "Female";
@@ -126,9 +134,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(444, 258);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 13);
+            this.label4.Size = new System.Drawing.Size(72, 19);
             this.label4.TabIndex = 9;
             this.label4.Text = "Gender";
             // 
@@ -214,13 +224,13 @@
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // editToolStripMenuItem
@@ -234,7 +244,7 @@
             // clearFormToolStripMenuItem
             // 
             this.clearFormToolStripMenuItem.Name = "clearFormToolStripMenuItem";
-            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clearFormToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.clearFormToolStripMenuItem.Text = "C&lear Form";
             // 
             // dateTimePicker1
@@ -249,9 +259,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Blue;
             this.label5.Location = new System.Drawing.Point(447, 311);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.Size = new System.Drawing.Size(103, 19);
             this.label5.TabIndex = 14;
             this.label5.Text = "Birth Date";
             // 
