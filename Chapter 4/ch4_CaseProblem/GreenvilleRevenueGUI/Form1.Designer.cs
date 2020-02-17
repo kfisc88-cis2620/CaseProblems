@@ -39,6 +39,7 @@
             this.currentRevenueLabel = new System.Windows.Forms.Label();
             this.comparisonLabel = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.competitionLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtLastYear
@@ -129,12 +130,22 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Greenville Revenue Calculator";
             // 
+            // competitionLabel
+            // 
+            this.competitionLabel.AutoSize = true;
+            this.competitionLabel.Location = new System.Drawing.Point(40, 203);
+            this.competitionLabel.Name = "competitionLabel";
+            this.competitionLabel.Size = new System.Drawing.Size(35, 13);
+            this.competitionLabel.TabIndex = 10;
+            this.competitionLabel.Text = "label3";
+            // 
             // GreenvilleRevenueGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(444, 391);
+            this.Controls.Add(this.competitionLabel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comparisonLabel);
             this.Controls.Add(this.currentRevenueLabel);
@@ -164,6 +175,7 @@
         private System.Windows.Forms.Label currentRevenueLabel;
         private System.Windows.Forms.Label comparisonLabel;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label competitionLabel;
     }
 }
 
