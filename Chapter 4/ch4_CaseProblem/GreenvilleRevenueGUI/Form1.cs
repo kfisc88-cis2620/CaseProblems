@@ -26,10 +26,23 @@ namespace GreenvilleRevenueGUI
         {
             const double FEE = 25;
 
-            double lastYear = Convert.ToDouble(txtLastYear.Text) * FEE;
-            double thisYear = Convert.ToDouble(txtThisYear.Text) * FEE;
+            double lastYear = Convert.ToDouble(txtLastYear.Text);
+            double thisYear = Convert.ToDouble(txtThisYear.Text);
 
             double difference = thisYear - lastYear;
+
+            if (thisYear > lastYear * 2)
+            {
+
+            } else if (thisYear > lastYear && thisYear < lastYear * 2)
+            {
+
+            } else if (thisYear < lastYear)
+            {
+
+            }
+
+
             
             previousRevenueLabel.Text = $"The previous year's revenue was {lastYear.ToString("C2")}";
             currentRevenueLabel.Text = $"The current year's revenue is {thisYear.ToString("C2")}";
