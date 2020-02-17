@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4807EDCF-9803-41CB-80BE-A13A5990C5A7}</ProjectGuid>
+    <ProjectGuid>{3BEAFA06-5E4D-4082-8B25-6F260B386D9A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ch4_CaseProblem</RootNamespace>
-    <AssemblyName>ch4_CaseProblem</AssemblyName>
+    <RootNamespace>GreenvilleRevenueGUI</RootNamespace>
+    <AssemblyName>GreenvilleRevenueGUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

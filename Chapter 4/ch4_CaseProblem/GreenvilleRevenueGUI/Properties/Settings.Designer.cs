@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ch4_CaseProblem.Properties
+namespace GreenvilleRevenueGUI.Properties
 {
 
 
