@@ -98,25 +98,25 @@
             // previousRevenueLabel
             // 
             this.previousRevenueLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.previousRevenueLabel.Location = new System.Drawing.Point(29, 230);
+            this.previousRevenueLabel.Location = new System.Drawing.Point(29, 252);
             this.previousRevenueLabel.Name = "previousRevenueLabel";
-            this.previousRevenueLabel.Size = new System.Drawing.Size(340, 16);
+            this.previousRevenueLabel.Size = new System.Drawing.Size(539, 16);
             this.previousRevenueLabel.TabIndex = 6;
             // 
             // currentRevenueLabel
             // 
             this.currentRevenueLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentRevenueLabel.Location = new System.Drawing.Point(29, 281);
+            this.currentRevenueLabel.Location = new System.Drawing.Point(29, 279);
             this.currentRevenueLabel.Name = "currentRevenueLabel";
-            this.currentRevenueLabel.Size = new System.Drawing.Size(340, 16);
+            this.currentRevenueLabel.Size = new System.Drawing.Size(539, 16);
             this.currentRevenueLabel.TabIndex = 7;
             // 
             // comparisonLabel
             // 
             this.comparisonLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comparisonLabel.Location = new System.Drawing.Point(29, 329);
+            this.comparisonLabel.Location = new System.Drawing.Point(26, 318);
             this.comparisonLabel.Name = "comparisonLabel";
-            this.comparisonLabel.Size = new System.Drawing.Size(403, 53);
+            this.comparisonLabel.Size = new System.Drawing.Size(542, 53);
             this.comparisonLabel.TabIndex = 8;
             // 
             // label6
@@ -132,19 +132,18 @@
             // 
             // competitionLabel
             // 
-            this.competitionLabel.AutoSize = true;
-            this.competitionLabel.Location = new System.Drawing.Point(40, 203);
+            this.competitionLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.competitionLabel.Location = new System.Drawing.Point(29, 224);
             this.competitionLabel.Name = "competitionLabel";
-            this.competitionLabel.Size = new System.Drawing.Size(35, 13);
+            this.competitionLabel.Size = new System.Drawing.Size(539, 16);
             this.competitionLabel.TabIndex = 10;
-            this.competitionLabel.Text = "label3";
             // 
             // GreenvilleRevenueGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(444, 391);
+            this.ClientSize = new System.Drawing.Size(606, 419);
             this.Controls.Add(this.competitionLabel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comparisonLabel);
@@ -157,7 +156,6 @@
             this.Controls.Add(this.txtLastYear);
             this.Name = "GreenvilleRevenueGUI";
             this.Text = "Greenville Revenue Calculator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

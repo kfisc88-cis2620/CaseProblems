@@ -28,18 +28,13 @@ namespace GreenvilleRevenueGUI
 
             double lastYear = Convert.ToDouble(txtLastYear.Text);
             double thisYear = Convert.ToDouble(txtThisYear.Text);
-            
 
             if (thisYear > lastYear * 2)
-            {
                 competitionLabel.Text = "The competition is more than twice as big as last year!";
-            } else if (thisYear > lastYear && thisYear < lastYear * 2)
-            {
+            else if (thisYear > lastYear && thisYear <= lastYear * 2)
                 competitionLabel.Text = "The competition is bigger than ever!";
-            } else if (thisYear < lastYear)
-            {
+            else
                 competitionLabel.Text = "A tighter race this year! Come out and cast your vote!";
-            }
 
             previousRevenueLabel.Text = String.Format("The previous year's revenue was {0}", (lastYear * FEE).ToString("C"));
             currentRevenueLabel.Text = String.Format("The current year's revenue is {0}", (thisYear * FEE).ToString("C"));
