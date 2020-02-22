@@ -29,9 +29,12 @@ namespace GreenvilleRevenueGUI
             double lastYear = Convert.ToDouble(txtLastYear.Text);
             double thisYear = Convert.ToDouble(txtThisYear.Text);
 
-            if (lastYear > 0 && lastYear < 30 && thisYear > 0 && lastYear < 30)
+            if ((lastYear >= 0 && lastYear <= 30) && (thisYear >= 0 && lastYear <= 30))
             {
+                // Clear error label text
+                errorLabel.Text = "";
 
+                // Compare thisYear no. of contestants to lastYear
                 if (thisYear > lastYear * 2)
                     competitionLabel.Text = "The competition is more than twice as big as last year!";
                 else if (thisYear > lastYear && thisYear <= lastYear * 2)
@@ -44,11 +47,13 @@ namespace GreenvilleRevenueGUI
                 comparisonLabel.Text = String.Format("The difference between this year and last year's revenue was {0}", ((thisYear - lastYear) * FEE).ToString("C"));
             } else
             {
-                errorLabel.Text = "Please enter a valid number.";
+                // Clear all other label text and display error
+                previousRevenueLabel.Text = "";
+                currentRevenueLabel.Text = "";
+                comparisonLabel.Text = "";
+                competitionLabel.Text = "";
+                errorLabel.Text = "Please enter a valid number from 0 to 30.";
             }
-
-            
-
         }
     }
 }

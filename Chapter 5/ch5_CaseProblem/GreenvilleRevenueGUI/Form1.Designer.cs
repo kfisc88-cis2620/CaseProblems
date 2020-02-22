@@ -141,12 +141,10 @@
             // 
             // errorLabel
             // 
-            this.errorLabel.AutoSize = true;
-            this.errorLabel.Location = new System.Drawing.Point(437, 77);
+            this.errorLabel.Location = new System.Drawing.Point(285, 85);
             this.errorLabel.Name = "errorLabel";
-            this.errorLabel.Size = new System.Drawing.Size(35, 13);
+            this.errorLabel.Size = new System.Drawing.Size(269, 20);
             this.errorLabel.TabIndex = 11;
-            this.errorLabel.Text = "label3";
             // 
             // GreenvilleRevenueGUI
             // 
