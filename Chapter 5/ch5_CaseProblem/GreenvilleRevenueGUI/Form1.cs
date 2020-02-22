@@ -29,16 +29,25 @@ namespace GreenvilleRevenueGUI
             double lastYear = Convert.ToDouble(txtLastYear.Text);
             double thisYear = Convert.ToDouble(txtThisYear.Text);
 
-            if (thisYear > lastYear * 2)
-                competitionLabel.Text = "The competition is more than twice as big as last year!";
-            else if (thisYear > lastYear && thisYear <= lastYear * 2)
-                competitionLabel.Text = "The competition is bigger than ever!";
-            else
-                competitionLabel.Text = "A tighter race this year! Come out and cast your vote!";
+            if (lastYear > 0 && lastYear < 30 && thisYear > 0 && lastYear < 30)
+            {
 
-            previousRevenueLabel.Text = String.Format("The previous year's revenue was {0}", (lastYear * FEE).ToString("C"));
-            currentRevenueLabel.Text = String.Format("The current year's revenue is {0}", (thisYear * FEE).ToString("C"));
-            comparisonLabel.Text = String.Format("The difference between this year and last year's revenue was {0}", ((thisYear - lastYear) * FEE).ToString("C"));
+                if (thisYear > lastYear * 2)
+                    competitionLabel.Text = "The competition is more than twice as big as last year!";
+                else if (thisYear > lastYear && thisYear <= lastYear * 2)
+                    competitionLabel.Text = "The competition is bigger than ever!";
+                else
+                    competitionLabel.Text = "A tighter race this year! Come out and cast your vote!";
+
+                previousRevenueLabel.Text = String.Format("The previous year's revenue was {0}", (lastYear * FEE).ToString("C"));
+                currentRevenueLabel.Text = String.Format("The current year's revenue is {0}", (thisYear * FEE).ToString("C"));
+                comparisonLabel.Text = String.Format("The difference between this year and last year's revenue was {0}", ((thisYear - lastYear) * FEE).ToString("C"));
+            } else
+            {
+                errorLabel.Text = "Please enter a valid number.";
+            }
+
+            
 
         }
     }

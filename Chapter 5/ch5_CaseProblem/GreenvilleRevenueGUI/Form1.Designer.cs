@@ -40,6 +40,7 @@
             this.comparisonLabel = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.competitionLabel = new System.Windows.Forms.Label();
+            this.errorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtLastYear
@@ -138,12 +139,22 @@
             this.competitionLabel.Size = new System.Drawing.Size(539, 16);
             this.competitionLabel.TabIndex = 10;
             // 
+            // errorLabel
+            // 
+            this.errorLabel.AutoSize = true;
+            this.errorLabel.Location = new System.Drawing.Point(437, 77);
+            this.errorLabel.Name = "errorLabel";
+            this.errorLabel.Size = new System.Drawing.Size(35, 13);
+            this.errorLabel.TabIndex = 11;
+            this.errorLabel.Text = "label3";
+            // 
             // GreenvilleRevenueGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(606, 419);
+            this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.competitionLabel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comparisonLabel);
@@ -174,6 +185,7 @@
         private System.Windows.Forms.Label comparisonLabel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label competitionLabel;
+        private System.Windows.Forms.Label errorLabel;
     }
 }
 
