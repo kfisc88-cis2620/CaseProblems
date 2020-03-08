@@ -41,12 +41,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.competitionLabel = new System.Windows.Forms.Label();
             this.errorLabel = new System.Windows.Forms.Label();
+            this.namesLabel = new System.Windows.Forms.Label();
+            this.numberNamesTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtLastYear
             // 
             this.txtLastYear.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLastYear.Location = new System.Drawing.Point(240, 67);
+            this.txtLastYear.Location = new System.Drawing.Point(255, 67);
             this.txtLastYear.Name = "txtLastYear";
             this.txtLastYear.Size = new System.Drawing.Size(30, 23);
             this.txtLastYear.TabIndex = 0;
@@ -59,7 +61,7 @@
             // txtThisYear
             // 
             this.txtThisYear.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThisYear.Location = new System.Drawing.Point(240, 102);
+            this.txtThisYear.Location = new System.Drawing.Point(255, 98);
             this.txtThisYear.Name = "txtThisYear";
             this.txtThisYear.Size = new System.Drawing.Size(30, 23);
             this.txtThisYear.TabIndex = 2;
@@ -78,7 +80,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(40, 105);
+            this.label2.Location = new System.Drawing.Point(40, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 16);
             this.label2.TabIndex = 4;
@@ -88,7 +90,7 @@
             // 
             this.calculateButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.calculateButton.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calculateButton.Location = new System.Drawing.Point(43, 153);
+            this.calculateButton.Location = new System.Drawing.Point(43, 175);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(72, 33);
             this.calculateButton.TabIndex = 5;
@@ -125,7 +127,7 @@
             this.label6.AutoSize = true;
             this.label6.ContextMenuStrip = this.contextMenuStrip1;
             this.label6.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(103, 20);
+            this.label6.Location = new System.Drawing.Point(169, 24);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(254, 19);
             this.label6.TabIndex = 9;
@@ -146,12 +148,32 @@
             this.errorLabel.Size = new System.Drawing.Size(269, 20);
             this.errorLabel.TabIndex = 11;
             // 
+            // namesLabel
+            // 
+            this.namesLabel.AutoSize = true;
+            this.namesLabel.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namesLabel.Location = new System.Drawing.Point(40, 133);
+            this.namesLabel.Name = "namesLabel";
+            this.namesLabel.Size = new System.Drawing.Size(209, 16);
+            this.namesLabel.TabIndex = 12;
+            this.namesLabel.Text = "Enter number of contestant names:";
+            // 
+            // numberNamesTextBox
+            // 
+            this.numberNamesTextBox.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberNamesTextBox.Location = new System.Drawing.Point(255, 133);
+            this.numberNamesTextBox.Name = "numberNamesTextBox";
+            this.numberNamesTextBox.Size = new System.Drawing.Size(30, 23);
+            this.numberNamesTextBox.TabIndex = 13;
+            // 
             // GreenvilleRevenueGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(606, 419);
+            this.Controls.Add(this.numberNamesTextBox);
+            this.Controls.Add(this.namesLabel);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.competitionLabel);
             this.Controls.Add(this.label6);
@@ -184,6 +206,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label competitionLabel;
         private System.Windows.Forms.Label errorLabel;
+        private System.Windows.Forms.Label namesLabel;
+        private System.Windows.Forms.TextBox numberNamesTextBox;
     }
 }
 
